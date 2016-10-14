@@ -15,8 +15,8 @@ class ViewController: UIViewController {
     func timeCount(){
         time += 1
         timeL.text = "\(time) Sec"
-
     }
+    
     
     @IBOutlet weak var timeL: UILabel!
     @IBAction func startB(_ sender: AnyObject) {
